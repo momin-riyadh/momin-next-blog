@@ -9,6 +9,10 @@
 !/.yarn/plugins
 !/.yarn/sdks
 
+# idea
+
+.idea
+
 # testing
 /coverage
 
