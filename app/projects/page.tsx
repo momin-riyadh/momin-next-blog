@@ -6,7 +6,7 @@ export const metadata = genPageMetadata({ title: 'Projects' })
 
 export default function Projects() {
   return (
-    <>
+
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pb-8 pt-6 md:space-y-5">
           <h1 className="text-2xl font-extrabold leading-6 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-6 md:text-5xl md:leading-6">
@@ -25,11 +25,12 @@ export default function Projects() {
                 description={d.description}
                 imgSrc={d.imgSrc}
                 href={d.href}
+                github_url={d.github_url}
               />
             ))}
           </div>
         </div>
       </div>
-    </>
+
   )
 }

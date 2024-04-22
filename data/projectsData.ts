@@ -3,6 +3,7 @@ interface Project {
   description: string,
   href?: string,
   imgSrc?: string,
+  github_url?: string,
 }
 
 const projectsData: Project[] = [
@@ -11,6 +12,7 @@ const projectsData: Project[] = [
     description: `A portfolio template for your personal website, built with documentation, working contact form and mobile first, technology stacks are node express javascript and ejs template engine`,
     imgSrc: '/static/images/portfolio.jpg',
     href: 'https://portfolio-af2r.onrender.com',
+    github_url: 'https://github.com/momin-riyadh/express-ejs'
   },
   // {
   //   title: 'The Time Machine',
