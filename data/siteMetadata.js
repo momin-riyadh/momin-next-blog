@@ -5,7 +5,7 @@ const siteMetadata = {
   headerTitle: 'Md Abdul Momin',
   description: 'Blending Tech, Tutorials, and Thoughts',
   language: 'en-us',
-  theme: 'system', // system, dark or light
+  theme: 'dark', // system, dark or light
   siteUrl: 'https://mominriyadh.me',
   // siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
   siteRepo: 'https://github.com/momin-riyadh/momin-next-blog',
