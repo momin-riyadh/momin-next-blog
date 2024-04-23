@@ -1,0 +1,36 @@
+---
+title: Truncate Long Text
+date: '2024-04-23'
+tags: ['css', 'code', 'features']
+draft: false
+summary: CSS offers a technique to truncate long text spans with ellipses, which is useful when dealing with constrained layouts.
+images: ['/static/images/css/css-text.jpeg']
+---
+
+ By default, CSS allows long text to increase the element's width or wrap to the following line. However, to truncate the text and add ellipses, the following properties are required:
+
+- Set a defined width for the element to prevent it from growing horizontally.
+- Use `overflow: hidden` to clip any text that exceeds the element's dimensions.
+- Apply `white-space: nowrap` to disable text wrapping and force the text to stay on a single line.
+- Finally, use `text-overflow: ellipsis` to append ellipses (...) at the end of the truncated text.
+
+### Here's a code example demonstrating the CSS text truncation technique:
+```html
+<p class="truncate-text">This is a long text that will be truncated after a certain width, and an ellipsis will be added at the end.</p>
+```
+
+```css
+.truncate-text {
+width: 200px; /* set a fixed width */
+white-space: nowrap; /* prevent text from wrapping */
+overflow: hidden; /* hide overflowing text */
+text-overflow: ellipsis; /* add ellipsis (...) */
+}
+```
+
+By combining these properties, we can effectively truncate long text spans with an ellipsis, ensuring a consistent and visually appealing layout within constrained spaces.
+
+### Code
+
+[![Edit truncate-long-text (forked)](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/truncate-long-text-forked-5jnc66)
+
