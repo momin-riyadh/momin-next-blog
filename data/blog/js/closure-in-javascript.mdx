@@ -26,6 +26,7 @@ myInnerFunc('World');
 ```
 
 ### In this code:
+
 - `outerFunc` is defined, taking a parameter `outerParam`.
 - Inside `outerFunc`, a variable `outerVar` is defined.
 - An inner function `innerFunc` is defined, which has access to both `outerParam` and `outerVar` from its outer scope.
@@ -34,6 +35,7 @@ myInnerFunc('World');
 - When `myInnerFunc` is called with the argument *'World'*, it can still access the values of `outerParam` and `outerVar` from its outer scope, even though `outerFunc` has finished executing.
 
 ### Output
+
 ```text
 Hello I am outside! World I am inside!
 ```
