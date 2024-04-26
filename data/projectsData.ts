@@ -17,7 +17,7 @@ const projectsData: Project[] = [
   {
     title: 'Admin Dashboard',
     description: `A sleek and intuitive frontend admin dashboard template, featuring responsive design, customizable components, and seamless integration with popular frameworks, ensuring a seamless user experience.`,
-    imgSrc: '/static/images/portfolio/admin-dashboard.jpg',
+    imgSrc: '/static/images/portfolio/admin-dashboard.png',
     href: 'https://admin-dashboard-od19.onrender.com',
     github_url: 'https://github.com/momin-riyadh/admin-dashboard'
   }
