@@ -1,0 +1,43 @@
+---
+title: Closure In Javascript
+date: '2024-04-26'
+tags: ['javascript', 'code']
+draft: false
+summary: A closure is a mechanism in JavaScript where an inner function has access to variables in its outer (enclosing) function's scope
+---
+
+A closure is a mechanism in JavaScript where an inner function has access to variables in its outer (enclosing) function's scope, even after the outer function has finished executing. This allows the inner function to remember and access variables from the environment in which it was created, preserving the state of those variables.
+
+Consider the following example:
+```javascript
+function outerFunc(outerParam) {
+  const outerVar = 'I am outside!';
+
+  function innerFunc(innerParam) {
+    const innerVar = 'I am inside!';
+    console.log(outerParam, outerVar, innerParam, innerVar);
+  }
+
+  return innerFunc;
+}
+
+const myInnerFunc = outerFunc('Hello');
+myInnerFunc('World');
+```
+
+### In this code:
+- `outerFunc` is defined, taking a parameter `outerParam`.
+- Inside `outerFunc`, a variable `outerVar` is defined.
+- An inner function `innerFunc` is defined, which has access to both `outerParam` and `outerVar` from its outer scope.
+- `outerFunc` returns `innerFunc`, creating a closure that captures the variables `outerParam` and `outerVar`.
+- `myInnerFunc` is assigned the returned closure.
+- When `myInnerFunc` is called with the argument *'World'*, it can still access the values of `outerParam` and `outerVar` from its outer scope, even though `outerFunc` has finished executing.
+
+### Output
+```text
+Hello I am outside! World I am inside!
+```
+
+In this example, `innerFunc` forms a closure, allowing it to access `outerParam` and `outerVar` from its outer scope, even after `outerFunc` has completed execution. This behavior is possible because the closure "closes over" the variables from its outer scope, preserving their values for future use.
+
+Closures are widely used in JavaScript for various purposes, such as data privacy, event handling, and creating private methods and variables in object-oriented programming.
