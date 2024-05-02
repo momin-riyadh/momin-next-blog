@@ -17,18 +17,18 @@ const projectsData: Project[] = [
   {
     title: "Admin Dashboard",
     description: `A sleek and intuitive frontend admin dashboard template, featuring responsive design, customizable components, and seamless integration with popular frameworks, ensuring a seamless user experience.`,
-    imgSrc: "/static/images/portfolio/admin-dashboard.png",
+    imgSrc: "/static/images/portfolio/admin-dashboard.jpg",
     href: "https://admin-dashboard-od19.onrender.com",
     github_url: "https://github.com/momin-riyadh/admin-dashboard"
   },
   {
     title: "Ticketing Interface",
     description: `The project aimed to create a user-friendly and visually appealing interface for a web application based on the provided Figma design. The design adhered to the established project architecture, ensuring consistency and scalability.`,
-    imgSrc: "/static/images/portfolio/tickets.png",
+    imgSrc: "/static/images/portfolio/ticket.jpg",
     href: "https://ticketingmodule.netlify.app/",
     github_url: "https://github.com/momin-riyadh/tickets"
   },
-    {
+  {
     title: "Frontend Mentor",
     description: `Frontend Mentor is a platform that provides real-world coding challenges to help developers improve their front-end skills.
 The challenges cover various aspects of front-end development, including HTML, CSS, JavaScript, and modern front-end frameworks/libraries.
