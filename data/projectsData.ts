@@ -8,11 +8,11 @@ interface Project {
 
 const projectsData: Project[] = [
   {
-    title: "Portfolio Template",
-    description: `A portfolio template for your personal website, built with documentation, working contact form and mobile first, technology stacks are node express javascript and ejs template engine`,
-    imgSrc: "/static/images/portfolio.jpg",
-    href: "https://portfolio-af2r.onrender.com",
-    github_url: "https://github.com/momin-riyadh/express-ejs"
+    title: "Job Portal - A Dynamic Employment Platform",
+    description: `A comprehensive job portal template built with modern HTML5, CSS3, and JS designed to streamline the job search and recruitment process. This responsive platform features an intuitive interface with dedicated sections for job listings, candidate profiles, employer dashboards, and advanced search functionality.`,
+    imgSrc: "/static/images/portfolio/job-portal.png",
+    href: "https://newjob-portal.netlify.app",
+    github_url: "https://github.com/momin-riyadh/job-portal"
   },
   {
     title: "Admin Dashboard",
@@ -36,7 +36,15 @@ The challenges cover various aspects of front-end development, including HTML, C
     imgSrc: "/static/images/portfolio/frontend-mentor.jpg",
     href: "https://www.frontendmentor.io/profile/momin-riyadh",
     github_url: "https://github.com/momin-riyadh/"
+  },
+  {
+    title: "Portfolio Template",
+    description: `A portfolio template for your personal website, built with documentation, working contact form and mobile first, technology stacks are node express javascript and ejs template engine`,
+    imgSrc: "/static/images/portfolio.jpg",
+    href: "https://portfolio-af2r.onrender.com",
+    github_url: "https://github.com/momin-riyadh/express-ejs"
   }
+
 ];
 
 export default projectsData;
