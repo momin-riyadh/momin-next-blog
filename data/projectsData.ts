@@ -8,6 +8,13 @@ interface Project {
 
 const projectsData: Project[] = [
   {
+    title: "Note Taking Web App",
+    description: `A comprehensive Note Taking App. This application allows users to create, edit, and delete notes, providing a seamless experience for managing personal notes. The app features a user-friendly interface, responsive design, and efficient data handling using sqlite and local storage.`,
+    imgSrc: "/static/images/portfolio/note-app.png",
+    href: "https://note-app-client-bh6b.onrender.com/",
+    github_url: "https://github.com/momin-riyadh/note-app"
+  },
+  {
     title: "Job Portal - A Dynamic Employment Platform",
     description: `A comprehensive job portal template built with modern HTML5, CSS3, and JS designed to streamline the job search and recruitment process. This responsive platform features an intuitive interface with dedicated sections for job listings, candidate profiles, employer dashboards, and advanced search functionality.`,
     imgSrc: "/static/images/portfolio/job-portal.png",
