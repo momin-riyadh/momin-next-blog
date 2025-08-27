@@ -15,6 +15,13 @@ const projectsData: Project[] = [
     github_url: "https://github.com/momin-riyadh/note-app"
   },
   {
+    title: "Kanban Board",
+    description: `Kanban Board is a web application designed to help users organize and manage their tasks efficiently. It provides a visual interface for creating, organizing, and tracking tasks in a flexible and intuitive manner.`,
+    imgSrc: "/static/images/portfolio/kanban.jpg",
+    href: "https://kanban-unified.netlify.app/",
+    github_url: "https://github.com/momin-riyadh/kanban-task"
+  },
+  {
     title: "Job Portal - A Dynamic Employment Platform",
     description: `A comprehensive job portal template built with modern HTML5, CSS3, and JS designed to streamline the job search and recruitment process. This responsive platform features an intuitive interface with dedicated sections for job listings, candidate profiles, employer dashboards, and advanced search functionality.`,
     imgSrc: "/static/images/portfolio/job-portal.png",
